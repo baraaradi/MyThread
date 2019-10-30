@@ -49,9 +49,6 @@ public class MainActivity extends AppCompatActivity
             }
         }).start(); */
 
-
-
-
     }
 
     public void stopThread(View view) {
@@ -107,6 +104,7 @@ public class MainActivity extends AppCompatActivity
                 catch (InterruptedException e)
                 {
                     e.printStackTrace();
+                    Log.e(TAG,"HELLOOOO");
                 }
             }
 
